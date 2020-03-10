@@ -5,7 +5,7 @@ class CalculadoraPresenter(activity: CalculadoraActivity) : CalculadoraContract.
 
     override fun calculateOperation(operator: String, value1: Int, value2: Int) {
         if (operator.equals("+")){
-
+			System.out.println("You selected plus option");
         }
     }
 
